@@ -1,5 +1,5 @@
 # PCDA-SAE
-This repository contains the implementation of the PCDA-SAE method 
+This repository contains the implementation of the PCDA-SAE method developed by Hadis Madani.
 
 Start by running PCDASAE.m
 
