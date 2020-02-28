@@ -1,6 +1,6 @@
 
 function [Data,labels,ijindex,count1,count2,count3,count4,count5,count6,count7,count8,count9,c1,c2,c3,c4,c5,c6,c7,c8,c9]=buildLabeledData()
-%This function organizes the total labeled pixels in the input HSI and their
+%This function organizes the total labeled pixels in the input image and their
 %corresponding class labels in matrices Data and labels, respectively.
 %counti:Stores number of samples available for class i.
 
