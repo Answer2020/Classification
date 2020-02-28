@@ -1,5 +1,3 @@
-%This is the implementation of the PCDA-SAE method for hyperspectral image
-%classification.
 %This code is developed by Hadis Madani.
 
 
