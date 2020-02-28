@@ -48,6 +48,9 @@ end
 
 %%
 %BUILDING TRAIN FEATURES
+%Spectral and spatial information are combined according to:
+%Y. Chen, Z. Lin, X. Zhao, G. Wang, and Y. Gu, “Deep learning-based classification of hyperspectral data,” 
+%IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 7, pp. 2094–2107, June 2014.
 for k1=1:size(trainInd,1)
     spatial=[];
     spectral=Data(trainInd(k1,1),:);
