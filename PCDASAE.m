@@ -1,4 +1,4 @@
-%This code is developed by Hadis Madani.
+%This code is written by Hadis Madani.
 
 
 clc;
