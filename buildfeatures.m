@@ -12,6 +12,9 @@ x=floor(neighbourSize/2);
 
 %%
 %PCDA
+%PCDA features are computed according to: M. Imani and H. Ghassemian, “Principal
+%component discriminant analysis for feature extraction and classification of hyperspectral images,” in 2014 Iranian Conference on Intelligent
+%Systems (ICIS), pp. 1–5, Feb 2014.
 paviaUReshaped=reshape(paviaU,[r*c,lam]);
 [coeff,score,latent] = pca(paviaUReshaped,'NumComponents',lam);
 
